@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Podcast</title>
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="Meu Podcast" />
+    <meta property="og:description" content="Ouça nossos episódios no YouTube" />
+    <meta property="og:image" content="https://seusite.com/og-image.jpg" />
+    <meta property="og:url" content="https://seusite.com" />
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Podcast</h1>
+        <p>Selecione um episódio para começar a ouvir.</p>
+    </header>
+
+    <main>
+        <!-- Player -->
+        <section id="player">
+            <p>Clique em uma capa abaixo para carregar o episódio.</p>
+        </section>
+
+        <!-- Grade de Thumbnails -->
+        <section id="thumbnails" class="grid">
+            <!-- Episódio 1 -->
+            <div class="thumbnail" data-video-id="YOUTUBE_VIDEO_ID_1">
+                <img src="thumb1.jpg" alt="Capa do Episódio 1" />
+                <h3>Episódio 1: Título do Episódio</h3>
+            </div>
+
+            <!-- Episódio 2 -->
+            <div class="thumbnail" data-video-id="YOUTUBE_VIDEO_ID_2">
+                <img src="thumb2.jpg" alt="Capa do Episódio 2" />
+                <h3>Episódio 2: Título do Episódio</h3>
+            </div>
+
+            <!-- Episódio 3 -->
+            <div class="thumbnail" data-video-id="YOUTUBE_VIDEO_ID_3">
+                <img src="thumb3.jpg" alt="Capa do Episódio 3" />
+                <h3>Episódio 3: Título do Episódio</h3>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
